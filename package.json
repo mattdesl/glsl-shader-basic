@@ -1,0 +1,48 @@
+{
+  "name": "glsl-shader-basic",
+  "version": "1.0.0",
+  "description": "a basic glslify shader, ready to go",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "a-big-triangle": "^1.0.2",
+    "budo": "^4.0.0",
+    "garnish": "^2.1.3",
+    "gl-shader": "^4.0.4",
+    "glslify": "^2.1.2",
+    "webgl-context": "^2.2.0"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "start": "budo demo.js --live --verbose -- -t glslify | garnish"
+  },
+  "keywords": [
+    "shader",
+    "glsl",
+    "basic",
+    "simple",
+    "stub",
+    "file",
+    "glslify",
+    "bare",
+    "bones",
+    "bare-bones",
+    "empty",
+    "start",
+    "starter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/glsl-shader-basic.git"
+  },
+  "homepage": "https://github.com/mattdesl/glsl-shader-basic",
+  "bugs": {
+    "url": "https://github.com/mattdesl/glsl-shader-basic/issues"
+  }
+}
